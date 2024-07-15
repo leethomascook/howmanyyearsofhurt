@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import { useEffect } from 'react'
 
 export default function Home() {
 
-  React.useEffect(() => {
+  useEffect(() => {
   const script = document.createElement("script");
     script.src = "countdown.js";
     script.async = true;
