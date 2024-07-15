@@ -13,7 +13,7 @@ export default function Home() {
       <main>
         <Header title=How many years of hurt since the England mens football team one a major trophy?" />
         <p className="description">
-          Too bloody long.</code>
+          Too bloody long.
         </p>
 
     <div class="countup" id="countup1">
