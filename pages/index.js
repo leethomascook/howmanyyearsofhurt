@@ -4,14 +4,17 @@ import Footer from '@components/Footer'
 
 export default function Home() {
 
-  componentDidMount () {
-    const script = document.createElement("script");
+  React.useEffect(() => {
+  const script = document.createElement("script");
     script.src = "countdown.js";
     script.async = true;
     document.body.appendChild(script);
-}
+  }, []);
   
   return (
+
+   
+  
     <div className="container">
       <Head>
         <title>How many years of hurt since the England mens football team one a major trophy?</title>
