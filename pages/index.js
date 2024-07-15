@@ -11,10 +11,23 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title=How many years of hurt since the England mens football team one a major trophy?" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          Too bloody long.</code>
         </p>
+
+    <div class="countup" id="countup1">
+      <span class="timeel years">00</span>
+      <span class="timeel timeRefYears">years</span>
+      <span class="timeel days">00</span>
+      <span class="timeel timeRefDays">days</span>
+      <span class="timeel hours">00</span>
+      <span class="timeel timeRefHours">hours</span>
+      <span class="timeel minutes">00</span>
+      <span class="timeel timeRefMinutes">minutes</span>
+      <span class="timeel seconds">00</span>
+      <span class="timeel timeRefSeconds">seconds</span>
+    </div>
       </main>
 
       <Footer />
