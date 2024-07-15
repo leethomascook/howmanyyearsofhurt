@@ -3,6 +3,14 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 
 export default function Home() {
+
+  componentDidMount () {
+    const script = document.createElement("script");
+    script.src = "countdown.js";
+    script.async = true;
+    document.body.appendChild(script);
+}
+  
   return (
     <div className="container">
       <Head>
