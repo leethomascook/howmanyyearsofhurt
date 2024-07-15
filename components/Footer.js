@@ -4,7 +4,8 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <a href="https://www.stadion.io">Powered by <img src="/stadion-logo.svg" alt="Stadion" className={styles.logo} /></a>
+    <p>Powered by</p>
+        <a href="https://www.stadion.io"> <img src="/stadion-logo.svg" alt="Stadion" className={styles.logo} /></a>
       </footer>
     </>
   )
