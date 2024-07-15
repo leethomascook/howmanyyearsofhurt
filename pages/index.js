@@ -6,12 +6,12 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>How many years of hurt since the England mens football team one a major trophy?</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title=How many years of hurt since the England mens football team one a major trophy?" />
+        <Header title="How many years of hurt since the England mens football team one a major trophy?" />
         <p className="description">
           Too bloody long.
         </p>
